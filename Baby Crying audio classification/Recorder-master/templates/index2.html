@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<div>
+
+<head>
+    <title>Upload New File</title>
+</head>
+
+
+<body>
+<div align="center">
+    <h1>BABY CRY AUDIO CLASSIFICATION</h1>
+    <h3>Upload <File></File></h3>
+    <form action="handle_form" method=post enctype=multipart/form-data>
+            <p><input type=file name=file>
+                <input type=submit value=Upload>
+            </p>
+        </form>
+</div>
+<br>
+<br>
+<br>
+<div align="center">
+    <form action="/record_audio" method="get">
+        <button name="record_audio" type="submit">RECORD</button>
+    </form>
+    <h3>Start Recording</h3>
+</div>
+
+
+</body>
+</html>

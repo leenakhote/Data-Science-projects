@@ -1,0 +1,5 @@
+elasticsearch==7.13.4
+tensorflow-hub
+tensorflow==2.1
+pandas
+flask
